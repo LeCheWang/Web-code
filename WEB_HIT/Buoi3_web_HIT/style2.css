@@ -1,0 +1,112 @@
+body{
+    margin: 0 auto;
+    padding: 0%;
+}
+
+
+.menu{
+    background-color: aquamarine;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    height: 50px; 
+}
+.menu >li{
+    width: 8%;display: block;
+    line-height: 50px;
+    text-align: center;
+    list-style: none;
+    position: relative;
+}
+.menu li:hover{
+    background-color: blue;
+   
+}
+.menu >li >.sub_menu{
+    width: 100%;
+    position: absolute;
+    list-style: none;
+}
+.menu li:hover .sub_menu{
+    background-color: rgb(124, 124, 145);
+}
+.sub_menu li:hover{
+    background-color: aquamarine;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* nav{
+    display: flex;
+       flex-direction: column;
+    /* doc */
+    
+/*}
+.menu-item{
+    width: 25%;
+    padding: 8px 16px;
+    background-color: aqua;
+    position: relative;
+    text-align: center;
+
+}
+.menu-item:hover{
+    background-color: rgb(13, 214, 113);
+    color: aliceblue;
+    font-size: xx-large;
+}
+.menu-container{
+    position: absolute;
+    display: none;
+    width: 100%;
+    top: 0;
+    left: 100%;
+}
+.menu-item2{
+
+    /* width:c ; */
+    padding: 8px 16px;
+    background-color: aqua;
+    /* position: relative; */
+    text-align: center;
+    border: 2px solid rgb(240, 238, 238);
+    
+/* }
+.menu-item2:hover {
+    background-color: rgb(13, 214, 113);
+    color: rgb(221, 19, 120);
+    font-size: xx-large;
+}
+.menu-item:hover .menu-container{
+    display: block;
+    width: 100%;
+    /* top: 100%;
+    left: 0; */
+*//* } */

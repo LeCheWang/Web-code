@@ -1,0 +1,24 @@
+.card{
+    margin-bottom: 20px;
+}
+*{
+    /* box-sizing: border-box !important; */
+}
+.col-xl-12{
+    height: 80px;
+    line-height: 80px;
+}
+.list-group-item{
+    height: 50px;
+    background-color: blue;
+}
+#home, #about, #aa, #bb {
+    background-color: aqua;
+    height: 500px;
+    margin-top: 20px;
+}
+a{
+    width: 20px;
+    padding: 20px 30px;
+    background-color: blue;
+}

@@ -1,0 +1,23 @@
+
+.avt{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+.relative{
+    height: auto;
+    width: 500px;
+    background-color: blue;
+    margin: 0 auto;  /*center*/
+    position: relative;
+}
+img{
+   position: fixed;
+   top: 50%;
+   left: 50%; 
+   z-index: 5;
+}
+p{
+    position: relative;
+    z-index: 8;
+}

@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*===body===*/
+body{
+    font-family: sans-serif;
+    color: aliceblue;
+    width: 700px;
+    margin: 0 auto; /*can giua */
+    
+}
+
+/*==menu====*/
+#menu ul{
+    list-style-type: none;
+    background-color: pink;
+    text-align: center;
+}
+#menu ul li{
+    /* color: blue; */
+    display: inline-table;  /*doc ngang cacs menu */
+    height: 60px;
+    width: 120px;
+    line-height: 60px;
+    position: relative;
+}
+#menu ul li a {
+    text-decoration: none;
+    color: red;
+    display: none; 
+}
+#menu ul li a:hover{
+    color: rgb(240, 231, 231);
+    background-color: blueviolet;
+ 
+}
+#menu ul li > .sub_menu{
+    display: none;
+   
+}
+#menu ul li:hover .sub_menu{
+    display: block;
+    position: absolute;
+    
+}

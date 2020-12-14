@@ -1,0 +1,49 @@
+.flex{
+    /* display: flex; */
+    display: flex;
+    height: 600px;
+    flex-direction: column;
+    justify-content: space-between;
+    /* justify-content: space-around; */
+    /* align-items: center; */
+    /* align-items: flex-end; */
+    /* align-items: stretch; */
+    /* align-items: flex-start; */
+    border: 2px solid royalblue;
+    position: relative;
+    /* can vij tri mep cua phan tu ngoaif cung tu trong*/
+    
+   
+    /* xac dinh theo relative, theo mep, neu k se xd theo mep ben ngoai */
+}
+.item{
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    position: relative;
+}
+.item-2{
+    margin-top: 20px;
+    height: 200px;
+    width: 200px;
+    background-color: rgb(250, 45, 45);
+    position: absolute;
+    /* item-2 dc xd theo cha cua no,
+     luon nam trong cha laf relative */
+     /* position: sticky; de co dinh thanh menu */
+}
+.header{
+    height: 50px;
+    background-color: bisque;
+    width: 100%;
+    /* position: fixed;  */
+    /* co dinh theo trinh duyet */
+    position: sticky;
+    /* co dinh theo phan tu cha */
+    top: 0;
+}
+.main{
+    height: 100000px;
+    background-color: red;
+    
+}

@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.menu{
+    width: 100%;
+    display: flex;
+    background-color: black;
+    height: 50px;
+    line-height: 50px;
+    position: fixed;
+    z-index: 99999;
+}
+.menu .item{
+    width: 25%;
+    color: white;
+    text-align: center;
+}
+
+
+.menu .item:hover{
+    background-color: rosybrown;
+    color: black;
+}
+
+img{
+    width: 500px;
+    height: 500px;
+    margin-top: 50px;
+    margin: 0 auto;
+}
+.photo{
+     display: flex;
+    justify-content: center;
+}
+.photo2{
+    position: relative;
+}
+.thecf{
+    width: 50%;
+    text-align: center;
+    position: absolute;
+    color: rgb(92, 228, 233);
+    font-weight: 900;
+    font-size: 60px;
+    top: 200px;
+    left: 20%;
+}
+.photo1{
+    position: relative;
+}
+.time{
+    position: absolute;
+    font-size: x-large;
+    color: aqua;
+    font-weight: 400; 
+    bottom: 20px; 
+    left: 10px;
+    animation: changecolor 0.2s ease-in-out infinite;
+}
+.photo3{
+    position: relative;
+}
+.add{
+    position: absolute;
+    font-size: x-large;
+    color: rgb(245, 14, 195);
+    font-weight: 600; 
+    bottom: 20px; 
+    right:10px;
+    animation: changecolor 0.2s ease-in-out infinite;
+}
+@keyframes changecolor{
+    50%{
+        background-color: rgb(236, 114, 114);
+    }
+    100%{
+        background-color: rgb(226, 211, 220);
+    }
+}
+
+
+
+
+

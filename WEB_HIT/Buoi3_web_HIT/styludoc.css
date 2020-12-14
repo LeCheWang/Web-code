@@ -1,0 +1,20 @@
+body{
+    margin: 0;
+}
+nav{
+    display: flex;
+    background-color: aquamarine;
+    width: 10%;
+}
+.menu{
+    height: 100%%;
+    padding: 8px 16px;
+    
+}
+.menu-container{
+    width: 200px;
+    
+}
+.menu-item{
+    border: 2px solid red;
+}
