@@ -1,0 +1,45 @@
+body{
+    margin: 0;padding: 0;
+    background-color: rgb(235, 238, 238);
+}
+.login{
+    width: 100%;   
+    .box{
+        width:550px;
+        margin: 100px auto;
+        background-color: white;
+        border-radius: 3px;
+        box-shadow: 0 -4px rgba(43, 43, 228, 0.918);
+        .logo{
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 22px;
+            font-weight: 400;
+            color: rgb(95, 96, 97);
+            h4{
+                padding: 0;margin: 10px;
+
+            }
+            p{
+                font-size: 17px;
+            }
+            img{
+                margin-top: 60px;
+                width: 105px;
+            }
+        }
+        hr{
+            width: 90%;
+            height: 0.2px;
+        }
+        .box-body{
+            width: 80%;
+         
+            input{
+                width: 100%;
+                padding: 15px 12px;
+                font-size: 20px;
+            }
+        }
+    }
+}

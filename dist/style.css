@@ -1,0 +1,17 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.login {
+  width: 100%;
+  background-color: #e79b44;
+  margin: 0 auto;
+  height: 300px;
+}
+.login .box {
+  width: 30%;
+  height: 200px;
+  background-color: #974242;
+  margin: 80px auto;
+}

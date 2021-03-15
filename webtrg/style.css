@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ebeeee;
+}
+
+.login {
+  width: 100%;
+}
+
+.login .box {
+  width: 550px;
+  margin: 100px auto;
+  background-color: white;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 -4px rgba(43, 43, 228, 0.918);
+          box-shadow: 0 -4px rgba(43, 43, 228, 0.918);
+}
+
+.login .box .logo {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  color: #5f6061;
+}
+
+.login .box .logo h4 {
+  padding: 0;
+  margin: 10px;
+}
+
+.login .box .logo p {
+  font-size: 17px;
+}
+
+.login .box .logo img {
+  margin-top: 60px;
+  width: 105px;
+}
+
+.login .box hr {
+  width: 90%;
+  height: 0.2px;
+}
+
+.login .box .box-body {
+  width: 80%;
+}
+
+.login .box .box-body input {
+  width: 100%;
+  padding: 15px 12px;
+  font-size: 20px;
+}
+/*# sourceMappingURL=style.css.map */

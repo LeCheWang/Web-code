@@ -132,7 +132,9 @@ Array.prototype.fillter2=function(callBack){
     return arrayTemp.length>0? arrayTemp: 'undefine';
 }
 var listFill = Dog.fillter2( function (element){
-    return element.age<19;
+    if(element.age<19)
+     return `<h2>${element}</h2>`
 })
+// document.write(listFill);
 console.log("List fillter: " , listFill);
 
